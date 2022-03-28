@@ -58,7 +58,8 @@ print(f'Age: {age}')
 ###### Point* Used the same coding to get the image from URL:
 		'http:randomfox.ca/floof'
 
- #####Also used sqlit3 to get similar data but this time the focus was on values as it was a customer database
+ #####Also used sqlit3 to get similar data but this time the focus was on values as it was a customer database,data was also persisted and retrieved
+ 
 
  import sqlite3
 
