@@ -55,6 +55,32 @@ print(f'Age: {age}')
 ###### the data sourced will be returned with information for each group after running the code in question e.g gender,name ,email adress,value etc
 
 
+###### Point* Used the same coding to get the image from URL:
+		'http:randomfox.ca/floof'
+
+ #####Also used sqlit3 to get similar data but this time the focus was on values as it was a customer database
+
+ import sqlite3
+
+conn = sqlite3.connect('customer.db')
+
+
+c = conn.cursor()
+
+c.execute("SELECT rowid, * FROM customers ORDER BY rowid")
+
+
+items = c.fetchall()
+
+for item in items:
+	print(items)
+
+
+conn.commit()
+
+conn.close()
+
+
 
 
 
