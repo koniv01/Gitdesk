@@ -58,6 +58,7 @@ import requests
 - print(f'{first_name}{last_name}')
 
 - @name variable to access different info:
+ 
 
 ###### Point* Used the same coding/variables to get the image from URL:'http:randomfox.ca/floof'
 
